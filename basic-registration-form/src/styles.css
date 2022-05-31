@@ -1,0 +1,45 @@
+.App {
+  font-family: sans-serif;
+
+  
+}
+body{
+   background-color:lightgreen;
+}
+.container{
+width: 400px;
+
+margin:150px auto;
+    
+}
+.container-item{
+  background-color:white;
+  padding:8px;
+
+}
+input{
+  display:block;
+ background-color:lightgrey;
+  padding:15px;
+  margin:10px auto;
+width: 300px;
+
+}
+button{
+  display:block;
+  background-color:green;
+  padding:15px;
+  margin:10px auto;
+width: 335px;
+}
+.sucess{
+  display:block;
+ background-color:blue;
+  padding:15px;
+  margin:10px auto;
+width: 300px;
+color:white;
+}
+.fail{
+  color:red;
+}

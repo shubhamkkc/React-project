@@ -4,7 +4,7 @@ import React, { useState } from "react";
 export default function App() {
   const [data, setData] = useState("");
   function handleChange(event) {
-    setData(event.target.toLowerCase());
+    setData(event.target.value.toLowerCase());
   }
   return (
     <div className="App">

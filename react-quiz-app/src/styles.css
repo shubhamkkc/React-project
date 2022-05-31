@@ -1,0 +1,49 @@
+*{
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+}
+.App {
+  font-family: sans-serif;
+  
+}
+body{
+  background-color:aqua;
+}
+.container{
+  background-color:black;
+  width: 75%;
+color:white;
+  margin:150px auto ;
+  border-radius: 10px;
+  padding: 15px;
+}
+.que-container{
+
+  color:white;
+  float:left;
+}
+p{
+  margin-top: 15px ;
+  margin-bottom: 15px;
+}
+.ans-container{
+  float:left;
+  margin-left:29px
+}
+button{
+  display:block;
+  padding:6px;
+  margin:8px;
+  width: 230px;
+  border:3px solid lightcyan;
+  background-color: transparent;
+  color: white;
+  border-radius: 10px;
+
+}
+.clear::after{
+  clear:both;
+  content:"";
+  display:block;
+}
